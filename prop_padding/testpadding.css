@@ -1,0 +1,16 @@
+body {
+    background-color: #2b2B2B;
+}
+
+.parent {
+
+    width: 500px;
+    background-color: blue;
+}
+
+.child {
+
+    padding-top: 100%;
+    background-color: yellow;
+    
+}

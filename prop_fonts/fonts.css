@@ -1,0 +1,30 @@
+:root {
+    --clr-lturquoise: #1abc9c;
+    --clr-dturquoise: #16a085;
+    --clr-lgreen: #2ecc71;
+    --clr-dgreen :#27ae60;
+    --clr-lblue: #3498db;
+    --clr-dblue: #2980b9;
+    --clr-lpurple: #9b59b6;
+    --clr-dpurple: #8e44ad;
+    --clr-lyellow: #f1c40f;
+    --clr-dyellow: #f39c12;
+    --clr-lorange: #e67e22;
+    --clr-dorange: #d35400;
+    --clr-lred: #e74c3c;
+    --clr-dred: #c0392b;
+    --clr-lgrey: #95a5a6;
+    --clr-dgrey: #7f8c8d;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+
+    height: 100%;
+}
