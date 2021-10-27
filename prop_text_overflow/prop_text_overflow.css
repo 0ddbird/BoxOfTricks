@@ -1,0 +1,172 @@
+:root {
+    --clr-lturquoise: #1abc9c;
+    --clr-dturquoise: #16a085;
+    --clr-lgreen: #2ecc71;
+    --clr-dgreen :#27ae60;
+    --clr-lblue: #3498db;
+    --clr-dblue: #2980b9;
+    --clr-lpurple: #9b59b6;
+    --clr-dpurple: #8e44ad;
+    --clr-lyellow: #f1c40f;
+    --clr-dyellow: #f39c12;
+    --clr-lorange: #e67e22;
+    --clr-dorange: #d35400;
+    --clr-lred: #e74c3c;
+    --clr-dred: #c0392b;
+    --clr-lgrey: #95a5a6;
+    --clr-dgrey: #7f8c8d;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    width: 360px;
+    height: 70px;
+    background-color: var(--clr-lyellow);
+    position: relative;
+}
+
+.left {
+    background-color: var(--clr-dpurple);
+    height: 100%;
+    width: 350px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    min-width: 0;
+}
+
+.left p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+.left h3 {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    min-width: 0;
+}
+
+.right {
+    display:flex;
+    width: 100px;
+    position: relative;
+}
+
+
+#red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-dred);
+    width: 50%;
+}
+
+#green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-lgreen);
+    width: 50%;
+}
+
+
+
+/* Ohmyfood tile */
+
+/* Tile container */
+.menu-section__sub-menu__button-menu {
+    width: 100%;
+    height: 70px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: #cfcfcf 0px 3px 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Text container (h2, p) */
+.menu-section__sub-menu__button-menu__text-menu {
+    margin: 12px 0 0 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    width: 100%;
+    transition: width 500ms ease-in-out;
+}
+
+.menu-section__sub-menu__button-menu__text-menu h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 0;
+}
+
+.menu-section__sub-menu__button-menu__text-menu p {
+    font-size: 15px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 0;
+}
+
+/* Pricetag and check container */
+.menu-section__sub-menu__button-menu__money-validate {
+    height: 100%;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 0 15px 15px 0;
+    transform: translateX(60px);
+    transform-origin: right;
+    transition: transform 500ms ease-in-out;
+    position: absolute;
+    right: 0;
+}
+
+/* Price tag */
+.menu-section__sub-menu__button-menu__money-validate span {
+    width: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 40px 22px 0 0;
+    border-radius: 0 15px 15px 0;
+}
+
+/* Checkmark container */
+.menu-section__sub-menu__button-menu__money-validate .menu-section__sub-menu__button-menu__money-validate__validate-bar {
+    width: 60px;
+    padding-top: 25px;
+    border-radius: 0 15px 15px 0;
+    background-color: #99e2d0;
+}
+
+.menu-section__sub-menu__button-menu__money-validate .menu-section__sub-menu__button-menu__money-validate__validate-bar i {
+    font-size: 20px;
+    color: #ffffff;
+    /* transform: rotate(-1turn); */
+    transition: transform 500ms ease-in-out;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.menu-section__sub-menu__button-menu:hover .menu-section__sub-menu__button-menu__money-validate {
+    transform: translateX(0px);
+}
