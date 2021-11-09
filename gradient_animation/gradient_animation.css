@@ -18,6 +18,11 @@
     --cd-btn: #011c37;
     --cd-txt: #15DEA5;
 
+    --clr-primary: #9356DC;
+    --clr-secondary: #FF79DA;
+    --clr-primary-light: #ae81e4;
+    --clr-secondary-light: #ff91e0;
+
 }
 
 * {
@@ -29,22 +34,20 @@
 html, body {
 
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
-    width:600px;
-    height: 200px;
+button {
+    color: white;
+    padding: 0 1em 0 1em;
+    height: 50px;
+    background-color: var(--clr-primary);
+    box-shadow: 0 40px 20px -25px var(--clr-secondary) inset; 
 }
 
-.btn {
-    background: var(--cd-btn);
-    color: var(--cd-txt);
-    cursor: pointer;
-    padding: 1em 1em;
-    border-radius: 10rem;
-    transform: scale(1);
-}
-
-.btn:hover {
-    transform: scale(1.15);
+button:hover {
+    box-shadow: 0 50px 30px -25px var(--clr-secondary-light) inset; 
+    transition: box-shadow 1s ease-in-out;
 }
