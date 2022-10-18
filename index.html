@@ -1,23 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jack's Box of Tricks</title>
-</head>
-<body>
-    <h1>Jack's Box of Tricks</h1>
-    <br>
-    <ol>
-        <li><a href="prop_flexbox/testflexbox.html">CSS Flexbox</a></li>
-        <li><a href="prop_grid/grid.html">CSS Grid</a></li>
-        <li><a href="prop_padding/margin-padding.html">CSS Padding</a></li>
-        <li><a href="prop_position/position.html">CSS Position</a></li>
-        <li><a href="prop_text_overflow/text_overflow.html">CSS Text overflow</a></li>
-        <li><a href="css_3D/css3D.html">CSS 3D</a></li>
-        <li><a href="js/map-filter-reduce.html">JS Filter, map, reduce</a></li>
-        <li><a href="date/date.html">Date</a></li>
-    </ol>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        
+        <link rel="stylesheet" href="./sass/pages/home.css" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="./assets/bot.png">
+        <link rel="stylesheet" href="./sass/main.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <title>0ddbird's Box of Tricks</title>
+    </head>
+    <body>
+        <header id="main-header">
+            <a href="#" id="main-header-homelink">
+                <img id="main-header-logo" src="./assets/bot.svg" alt="logo">
+                <h1 id="main-header-h1">0ddbird's Box of Tricks</h1>
+            </a>
+        </header>
+        <div class="sections-container">
+            <section id="javascript-section">
+                <h1 className="home-section-h1">JavaScript</h1>
+                <article class="theme">
+                    <a href="./pages/js/array_methods/array.html">Array methods</a>
+                </article>
+                <article class="theme">
+                    <a href="./pages/js/date/date.html">Date Object</a>
+                </article>
+            </section>
+            <section id="css-section">
+                <h1 className="home-section-h1">CSS</h1>
+                <article class="theme">
+                    <a href="./pages/css/prop_flexbox/testflexbox.html">Flexbox</a>
+                </article>
+                <article class="theme">
+                    <a href="./pages/css/prop_grid/grid.html">Grid</a>
+                </article>
+                <article class="theme">
+                    <a href="./pages/css/prop_padding/margin-padding.html">Padding</a>
+                </article>
+                <article class="theme">
+                    <a href="./pages/css/prop_position/position.html">Position</a>
+                </article>
+                <article class="theme">
+                    <a href="./pages/css/prop_text_overflow/text_overflow.html">Text overflow</a>
+                </article>
+                <article class="theme">
+                    <a href="./pages/css/css_3D/css3D.html">3D</a>
+                </article>
+            </section>
+            <section id="typescript-section">
+                <h1 className="home-section-h1">TypeScript</h1>
+                <article class="theme">
+                    <a href="./pages/ts/ts.html">TS</a>
+                </article>
+            </section>
+        </div>
+        
+    </body>
 </html>

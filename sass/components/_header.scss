@@ -1,0 +1,23 @@
+@use '../abstract/' as a;
+#main-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: a.$clr-dyellow;
+  padding: 1ch 0;
+}
+
+#main-header-homelink {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & h1 {
+    font-weight: 700;
+  }
+}
+#main-header-logo {
+  height: 3em;
+  width: 3em;
+}

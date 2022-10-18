@@ -1,0 +1,6 @@
+@use '../abstract/' as a;
+
+.dom-display-group {
+  border: 1px solid a.$clr-dyellow;
+  margin: 1em 0;
+}
