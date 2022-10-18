@@ -117,6 +117,19 @@ html, body {
 .dom-display-group {
   border: 1px solid #f39c12;
   margin: 1em 0;
+  white-space: pre-wrap;
+}
+
+.dom-display {
+  margin: 0 0.5ch;
+}
+
+.keyword {
+  color: #0073ee;
+}
+
+.symbol {
+  color: #ffbe4d;
 }
 
 .sections-container {

@@ -3,4 +3,17 @@
 .dom-display-group {
   border: 1px solid a.$clr-dyellow;
   margin: 1em 0;
+  white-space: pre-wrap;
+}
+
+.dom-display {
+  margin: 0 .5ch;
+}
+
+.keyword {
+  color: rgb(0, 115, 238);
+}
+
+.symbol{
+  color: rgb(255, 190, 77);
 }

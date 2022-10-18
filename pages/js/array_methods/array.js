@@ -98,6 +98,7 @@ function add(x = 5, y = 3) {
 }
 
 domDisplay('Add function with placeholder values', 'placeholder')
+domDisplay(add.toString(), 'placeholder')
 domDisplay(add(5), 'placeholder')
 
 /* console.log(add(null, null))
@@ -117,11 +118,14 @@ console.log(Object.getOwnPropertyNames(null)) */
 } */
 
 function factorial(n) {
-  if (n < 0) return -1
-  else if (n === 0) return 1
-  else return n * factorial(n - 1)
+  if (n < 0) return -1;
+  else if (n === 0) return 1;
+  else return n * factorial(n - 1);
 }
+
+
 domDisplay('recursive Factorial of 5', 'factorial')
+domDisplay(factorial.toString(), 'factorial', true)
 domDisplay(factorial(5), 'factorial')
 
 function sumRangedValue(array, n1, n2) {
